@@ -10,7 +10,7 @@
 // int randomLength = random.Next(5,30);
 
 // Burada Random kütüphanesi, nesne oluşturma, Next() fonksiyonu nedir bunları da kısaca anlat!
-// 
+// Ekran görüntüleri de eklenmelidir.
 
 using System;
 
