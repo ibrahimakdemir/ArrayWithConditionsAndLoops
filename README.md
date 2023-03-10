@@ -4,7 +4,7 @@
 
 I developed this console application to reinforce the topics taught by our instructor [Türkay Ürkmez](https://github.com/turkayurkmez) during the Turkcell's "Gençlere Yatırım, Geleceğe Yazılım!"
 
->**Here I will add detailed explanations of how each step of the code is performed. This reinforces the knowledge I have used while writing the code.**
+>**I will add detailed explanations of how each step of the code is performed. This reinforces the knowledge I have used while writing the code.**
 
 Using the knowledge I acquired from this week's lessons, including array, while, for, try-catch, switch-case, Random, and flag, I have developed a console application. This application will use arrays to display the highest and lowest numbers, separate odd-even-prime numbers, and calculate the average and sum of the numbers.
 
@@ -44,7 +44,7 @@ The application will go through the following steps:
         }
 ```
 
-Here I control the user's choice with switch-case. The user entering 1 indicates that the user wants to determine the length of the array himself, while entering 2 indicates that the user wants the length of the array to be determined randomly. `lengthArray = random.Next(5, 30);` with this code, I access the `Next()` function using the object named `random` that I created from the Random library and generate a random number between 5 and 30. Random selected length is printed using '**interpolated strings**'.
+I control the user's choice with switch-case. The user entering 1 indicates that the user wants to determine the length of the array himself, while entering 2 indicates that the user wants the length of the array to be determined randomly. `lengthArray = random.Next(5, 30);` with this code, I access the `Next()` function using the object named `random` that I created from the Random library and generate a random number between 5 and 30. Random selected length is printed using '**interpolated strings**'.
 
 ---
 
@@ -223,7 +223,7 @@ for (int i = 0; i < lengthArray; i++)
 }
 ```
 
-In this code block, I first define a new array of integers named `primeNumbers` which is the same length as `numbers`. I also define a bool variable `isPrime` as false. I then check the mode of each number in the `numbers` array with all the integers from 2 to itself if its mode is equal to 0 then that number is not prime. If it is not divisible by any number, it is a prime number. I also check if this number is 2 or a smaller number. If the number is equal to 2, I am stating that the number is prime without using the mod operation. If the number is less than 2, it is not prime. Here I can tell if a number is prime or not with the `isPrime` flag. If it is a prime number, I add this number to the `primeNumbers` array. If not, I add the number -1. Thus, when I want to see the elements of the array, I can select those that are not equal to -1.
+In this code block, I first define a new array of integers named `primeNumbers` which is the same length as `numbers`. I also define a bool variable `isPrime` as false. I then check the mode of each number in the `numbers` array with all the integers from 2 to itself if its mode is equal to 0 then that number is not prime. If it is not divisible by any number, it is a prime number. I also check if this number is 2 or a smaller number. If the number is equal to 2, I am stating that the number is prime without using the mod operation. If the number is less than 2, it is not prime. I can tell if a number is prime or not with the `isPrime` flag. If it is a prime number, I add this number to the `primeNumbers` array. If not, I add the number -1. Thus, when I want to see the elements of the array, I can select those that are not equal to -1.
 
 ```C#
 // The prime numbers
