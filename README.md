@@ -268,15 +268,15 @@ else
 
 1. Determining The Length Of The Array
 
-    ![Alt text](Screenshots\1.png)
+    ![Alt text](Screenshots/1.png)
 
 2. Showing Result
 
-    ![Alt text](Screenshots\2.png)
+    ![Alt text](Screenshots/2.png)
 
 3. The End Of The Application
 
-    ![Alt text](Screenshots\3.png)
+    ![Alt text](Screenshots/3.png)
 
 ---
 
