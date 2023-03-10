@@ -263,6 +263,23 @@ else
 ```
 
 ---
+
+### The Screenshots Of The Application
+
+1. Determining The Length Of The Array
+
+    ![Alt text](Screenshots\1.png)
+
+2. Showing Result
+
+    ![Alt text](Screenshots\2.png)
+
+3. The End Of The Application
+
+    ![Alt text](Screenshots\3.png)
+
+---
+
 <br>
 <br>
 <p style="text-align: center;"><a href="https://github.com/ibrahimakdemir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="ibrakdemir" height="30" width="40" style="text-align:center"/></a>
