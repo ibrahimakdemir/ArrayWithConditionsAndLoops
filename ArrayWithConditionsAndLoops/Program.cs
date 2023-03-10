@@ -1,18 +1,4 @@
-﻿/*Bu konsol uygulamasında array kullanılarak en büyük ve en küçük sayı bulunacak, tek-çift-asal sayılar ayrı ayrı ekrana yazdırılacak  , sayıların ortalaması ve toplama da hesaplanacaktır. Uygulamanın aşamaları şu şekilde olacaktır;
-        1- Array uzunluğu belirlenecek; ya kullanıcının girdiği ya da random bir sayı olacak, bunu kullanıcı switch-case ile seçecektir.
-        2- for döngüsü kullanılarak sayılar random seçilerek array oluşturulacaktır.
-        3- Ekrana en büyük-küçük ve tek-çift-asal sayılar, sayıların ortalaması-toplamı yazdırılacak.
- */
-
-// Bu konsol uygulaması için Readme.md oluşturulacaktır. Bu dosya içerisinde tüm herşey açıklanacaktır. Random kütüphanesi... gibi
-
-// Random random = new Random();
-// int randomLength = random.Next(5,30);
-
-// Burada Random kütüphanesi, nesne oluşturma, Next() fonksiyonu nedir bunları da kısaca anlat!
-// Ekran görüntüleri de eklenmelidir.
-
-using System;
+﻿using System;
 
 int lengthArray = 0;
 Random random = new Random();
