@@ -1,4 +1,4 @@
-# Array With Conditions And Loops
+# Array With Conditions And Loops   (TurkcellGY-Week1 Homework)
 
 ## 👉Introduction
 
